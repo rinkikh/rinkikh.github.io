@@ -86,7 +86,7 @@ header.shadow {
   color: crimson;
 }
 
-.navbar {
+#navbar {
   display: flex;
 }
 
@@ -113,7 +113,7 @@ header.shadow {
   cursor: pointer;
 }
 
-.home {
+#home {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -485,7 +485,7 @@ form textarea {
     display: none;
   }
 
-  .home {
+  #home {
     grid-template-columns: 0.5fr 3fr;
   }
 
