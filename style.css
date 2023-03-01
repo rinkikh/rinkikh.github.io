@@ -121,12 +121,12 @@ header.shadow {
   justify-content: center;
 }
 
-.home-img {
+.homeimg {
   height: 50px;
   width: 70%;
 }
 
-.home-img img {
+.homeimg img {
   width: 50%;
   border-radius: 20%;
 }
@@ -451,7 +451,7 @@ form textarea {
     padding-left: 1.4rem;
   }
 
-  .home-img {
+  .homeimg {
     order: initial;
   }
 
@@ -513,4 +513,12 @@ form textarea {
   .contact-button {
     margin-left: 25%;
   }
+}
+
+.project-card i {
+  font-size: 50px;
+}
+
+.project-card links{
+display: flex;
 }
