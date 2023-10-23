@@ -1,0 +1,16 @@
+.contact_details {
+
+    margin: 20px;
+    background: rgb(18, 176, 229);
+    padding: 1.4rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid rgb(11, 15, 5);
+}
+
+.info_box {
+    display: flex;
+    border-radius: 1rem;
+    padding: 10px;
+    border: 3px solid black;
+    gap: 20px;
+}

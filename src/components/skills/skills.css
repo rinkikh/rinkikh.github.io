@@ -1,0 +1,43 @@
+.skills_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    background: rgb(57, 93, 3);
+    padding: 1.4rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid olivedrab;
+}
+
+
+.skills_container>div {
+    display: flex;
+    font-size: 18px;
+    width: 112px;
+    height: 70px;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .skills_container {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .skills_container {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+  
+}
