@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.45e96b35.css",
-    "main.js": "/static/js/main.324aa873.js",
+    "main.css": "/static/css/main.0cbd72a1.css",
+    "main.js": "/static/js/main.c81caa21.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/indbuy.jpeg": "/static/media/indbuy.b280b640dc81b840954e.jpeg",
     "static/media/Pharma.png": "/static/media/Pharma.7f660c194b19637dae99.png",
-    "static/media/RINKI_SINGH_Resume.pdf": "/static/media/RINKI_SINGH_Resume.44a464fd73fffde02549.pdf",
+    "static/media/RINKI_SINGH_Resume.pdf": "/static/media/RINKI_SINGH_Resume.182277d108086f53dfaf.pdf",
+    "static/media/cart.png": "/static/media/cart.b2d79ac4196e6d957a61.png",
+    "static/media/weather.png": "/static/media/weather.3280d3ad1175bf8b6493.png",
     "static/media/propic.jpeg": "/static/media/propic.b770c0270260c35e9f52.jpeg",
     "static/media/blackjack.png": "/static/media/blackjack.5feaf0fb0681507e7f9e.png",
     "static/media/propic_b.jpg": "/static/media/propic_b.d86150d17d44fee98261.jpg",
     "index.html": "/index.html",
-    "main.45e96b35.css.map": "/static/css/main.45e96b35.css.map",
-    "main.324aa873.js.map": "/static/js/main.324aa873.js.map",
+    "main.0cbd72a1.css.map": "/static/css/main.0cbd72a1.css.map",
+    "main.c81caa21.js.map": "/static/js/main.c81caa21.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45e96b35.css",
-    "static/js/main.324aa873.js"
+    "static/css/main.0cbd72a1.css",
+    "static/js/main.c81caa21.js"
   ]
 }
