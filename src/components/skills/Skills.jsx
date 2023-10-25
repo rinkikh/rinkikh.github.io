@@ -2,10 +2,10 @@ import React from 'react'
 import './skills.css'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3 } from 'react-icons/di'
-import { SiJavascript } from 'react-icons/si'
-import { FaReact } from 'react-icons/fa'
+import { SiJavascript, SiThealgorithms, SiTypescript } from 'react-icons/si'
+import { FaNodeJs, FaReact } from 'react-icons/fa'
 
-import { VscSymbolInterface } from 'react-icons/vsc'
+import { VscSymbolInterface, VscSymbolStructure } from 'react-icons/vsc'
 
 
 
@@ -52,7 +52,19 @@ const Skills = () => {
           </article>
         </div>
         
+        <div>
+          <article className='skills_details'>
+            <FaNodeJs className='skill_icon' />
+            <h4>NODE JS</h4>
+          </article>
+        </div>
 
+        <div>
+          <article className='skills_details'>
+            <SiTypescript className='skill_icon' />
+            <h4>TYPESCRIPT</h4>
+          </article>
+        </div>
 
         <div>
           <article className='skills_details'>
@@ -61,7 +73,12 @@ const Skills = () => {
           </article>
         </div>
 
-
+        <div>
+          <article className='skills_details'>
+            <VscSymbolStructure className='skill_icon' />
+            <h4>DSA</h4>
+          </article>
+        </div>
 
 
       </div>
