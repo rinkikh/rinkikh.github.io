@@ -2,7 +2,7 @@ import React from 'react'
 import './skills.css'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3 } from 'react-icons/di'
-import { SiJavascript, SiThealgorithms, SiTypescript } from 'react-icons/si'
+import { SiExpress, SiJavascript, SiMongodb, SiThealgorithms, SiTypescript } from 'react-icons/si'
 import { FaNodeJs, FaReact } from 'react-icons/fa'
 
 import { VscSymbolInterface, VscSymbolStructure } from 'react-icons/vsc'
@@ -61,17 +61,26 @@ const Skills = () => {
 
         <div>
           <article className='skills_details'>
-            <SiTypescript className='skill_icon' />
-            <h4>TYPESCRIPT</h4>
+            <SiExpress className='skill_icon' />
+            <h4>EXPRESS JS</h4>
           </article>
         </div>
 
         <div>
           <article className='skills_details'>
-            <VscSymbolInterface className='skill_icon' />
-            <h4>CHAKRA UI</h4>
+            <SiMongodb className='skill_icon' />
+            <h4>MONGO DB</h4>
           </article>
         </div>
+
+        <div>
+          <article className='skills_details'>
+            <SiTypescript className='skill_icon' />
+            <h4>TYPESCRIPT</h4>
+          </article>
+        </div>
+
+       
 
         <div>
           <article className='skills_details'>

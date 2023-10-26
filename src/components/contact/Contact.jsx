@@ -20,10 +20,7 @@ const Contact = () => {
           <p>rinki9414@gmail.com</p>
         </div>
 
-        <div className="info_box">
-          <BiMobileVibration/>
-          <p>+919279022298</p>
-        </div>
+        
 
       </div>
     </section>

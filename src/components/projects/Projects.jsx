@@ -5,6 +5,8 @@ import PROJ_a from "../../Assets/Pharma.png"
 import PROJ_b from "../../Assets/blackjack.png"
 import PROJ_c from "../../Assets/weather.png"
 import PROJ_d from "../../Assets/cart.png"
+import PROJ_e from "../../Assets/contactmng.png"
+
 
 
 import { SiNetlify } from "react-icons/si"
@@ -17,6 +19,23 @@ const Projects = () => {
       <h2>MY PROJECTS</h2>
 
       <div className="project_container">
+
+        <div className='project_details'>
+          <h3>Contact Manager </h3>
+          <img src={PROJ_e} alt="" />
+          <p>The Contact Manager App, built with React, allows users to manage
+            their contacts. Users can add, edit, and delete contacts and view individual contact details. It provides a simple and efficient way to organize and maintain contact information</p>
+          <h5>REACT | SEMANTIC UI  </h5>
+          <div className='links'>
+            <a href="https://contact-manager-apl.netlify.app/" target="_blank">
+              <SiNetlify size='30px' />
+            </a>
+            <a href="https://github.com/rinkikh/ContactApp" target="_blank">
+              <AiOutlineGithub size='30px' />
+            </a>
+          </div>
+
+        </div>
 
         <div className='project_details'>
           <h3>Add-to-cart Application</h3>
