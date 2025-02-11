@@ -2,9 +2,7 @@ import React from 'react'
 import './projects.css'
 import PROJ from "../../Assets/indbuy.jpeg"
 import PROJ_a from "../../Assets/Pharma.png"
-import PROJ_b from "../../Assets/blackjack.png"
 import PROJ_c from "../../Assets/weather.png"
-import PROJ_d from "../../Assets/cart.png"
 import PROJ_e from "../../Assets/contactmng.png"
 
 
@@ -19,7 +17,6 @@ const Projects = () => {
       <h2>MY PROJECTS</h2>
 
       <div className="project_container">
-
         <div className='project_details'>
           <h3>Contact Manager </h3>
           <img src={PROJ_e} alt="" />
@@ -31,23 +28,6 @@ const Projects = () => {
               <SiNetlify size='30px' />
             </a>
             <a href="https://github.com/rinkikh/ContactApp" target="_blank">
-              <AiOutlineGithub size='30px' />
-            </a>
-          </div>
-
-        </div>
-
-        <div className='project_details'>
-          <h3>Add-to-cart Application</h3>
-          <img src={PROJ_d} alt="" />
-          <p>Adding items to cart and displaying it on screen, deleting any item
-            no longer needed with single click,storing and retrieving data on Firebase , real-time database by Google.</p>
-          <h5>HTML | CSS | JAVASCRIPT</h5>
-          <div className='links'>
-            <a href="https://add-to-cart-mobapp.netlify.app/" target="_blank">
-              <SiNetlify size='30px' />
-            </a>
-            <a href="https://github.com/rinkikh/mobile_app" target="_blank">
               <AiOutlineGithub size='30px' />
             </a>
           </div>
@@ -101,27 +81,11 @@ const Projects = () => {
               <AiOutlineGithub size='30px' />
             </a>
           </div>
-
-        </div>
-
-        <div className='project_details'>
-          <h3>BLACK JACK </h3>
-          <img src={PROJ_b} alt="" />
-          <p>An interesting online Black Jack game developed using concepts of JavaScript.</p>
-          <h5>HTML | CSS | JAVASCRIPT</h5>
-          <div className='links'>
-            <a href="https://clever-sfogliatella-625252.netlify.app/" target="_blank">
-              <SiNetlify size='30px' />
-            </a>
-            <a href="https://github.com/rinkikh/Scrimba-Projects/tree/main/Black-jack%20game" target="_blank">
-              <AiOutlineGithub size='30px' />
-            </a>
-          </div>
-
         </div>
 
       </div>
-    </section>
+
+    </section >
   )
 }
 

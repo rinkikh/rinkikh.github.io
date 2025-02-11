@@ -13,8 +13,8 @@ const About = () => {
 
         <div className='about_content'>
           <p>
-            Full Stack Developer, having  a unique combination of skills,with  in-depth knowledge of programming languages such as HTML, CSS,
-            JavaScript, React , Node JS ,Express and MongoDB. Ability to design and develop complex web applications from scratch.
+            Software Developer, having  a unique combination of skills with  in-depth knowledge of programming languages such as HTML, CSS,
+            JavaScript, React , Node JS ,Python. Ability to design and develop complex web applications from scratch.
             Expertise in creating responsive and user-friendly interfaces like chakra UI, building highly functional and scalable web applications.
           </p>
         </div>
